@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gavana Reference Images"
+  short_description: "Create images from local visual references"
+  default_prompt: "Use $gavana-reference-images to create a new Gavana image from these references."

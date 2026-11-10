@@ -1,0 +1,30 @@
+{
+    "name": "gavana",
+    "version": "0.1.1",
+    "description": "Use Gavana Canvas skills and hosted MCP tools from ChatGPT and Codex.",
+    "author": {
+        "name": "Gavana",
+        "url": "https://gavana.ai"
+    },
+    "homepage": "https://gavanaai-help.web.app/agent-access/connect-via-chatgpt",
+    "repository": "https://github.com/Gavana-ai/gavana-plugin",
+    "interface": {
+        "displayName": "Gavana",
+        "shortDescription": "Visual canvases for AI images",
+        "longDescription": "Connect Gavana to use bundled Canvas skills, inspect visual canvases, save ChatGPT-created images as durable canvas nodes, and generate images or videos with your configured providers. Includes the Gavana CLI skill for agents with shell access, which reaches the same API and can read files on your machine.",
+        "developerName": "Gavana",
+        "brandColor": "#171717",
+        "composerIcon": "./assets/gavana-mark.png",
+        "logo": "./assets/gavana-mark.png",
+        "category": "Productivity",
+        "capabilities": ["MCP", "CLI"],
+        "defaultPrompt": ["Show me my Gavana canvases.", "Save this image to my Gavana Agent Canvas.", "Generate an image in my Gavana canvas."],
+        "websiteURL": "https://gavana.ai",
+        "supportURL": "https://gavana.ai/contact",
+        "privacyPolicyURL": "https://app.gavana.ai/privacy",
+        "termsOfServiceURL": "https://app.gavana.ai/terms"
+    },
+    "skills": "./skills/",
+    "mcpServers": "./.mcp.json",
+    "apps": "./.app.json"
+}

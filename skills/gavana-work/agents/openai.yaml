@@ -1,0 +1,15 @@
+interface:
+  display_name: "Work in Gavana"
+  short_description: "Do any canvas, image or video task in Gavana, in your words"
+  default_prompt: "Use $gavana-work to make this in Gavana exactly as I describe it."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "gavana"
+      description: "Gavana Canvas, image and video tools"
+      transport: "streamable_http"
+      url: "https://app.gavana.ai/mcp"
+
+policy:
+  allow_implicit_invocation: true

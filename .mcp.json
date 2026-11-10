@@ -1,0 +1,8 @@
+{
+    "mcpServers": {
+        "gavana": {
+            "type": "http",
+            "url": "https://app.gavana.ai/mcp"
+        }
+    }
+}

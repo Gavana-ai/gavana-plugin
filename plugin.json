@@ -1,0 +1,12 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "gavana",
+  "version": "1.0.0",
+  "description": "Make posts, ads and videos on your Gavana canvas with Gavana skills and hosted MCP tools.",
+  "author": {
+    "name": "Gavana",
+    "url": "https://gavana.ai"
+  },
+  "homepage": "https://gavana.ai",
+  "repository": "https://github.com/Gavana-ai/gavana-plugin"
+}

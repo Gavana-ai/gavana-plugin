@@ -1,0 +1,15 @@
+interface:
+  display_name: "Gavana Campaign"
+  short_description: "Plan then run chat-first product campaigns"
+  default_prompt: "Use $gavana-campaign to plan three directions for this product campaign in Gavana."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "gavana"
+      description: "Gavana campaign workflow and Canvas runtime"
+      transport: "streamable_http"
+      url: "https://app.gavana.ai/mcp"
+
+policy:
+  allow_implicit_invocation: true
